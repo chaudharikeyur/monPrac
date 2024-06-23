@@ -1,4 +1,6 @@
 const mongoose = require('mongoose');
+require('dotenv').config();
+
 mongoose.connect('mongodb+srv://leo:leo2001m@cluster0.fqmxuwb.mongodb.net/userdata');
 
 const db = mongoose.connection;
